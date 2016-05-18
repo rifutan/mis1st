@@ -1,0 +1,543 @@
+* {
+	font-family:  "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+	margin-left: auto;
+ 	margin-right: auto;
+}
+
+body {
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	min-width: 1000px;
+
+}
+
+.eventtop {
+	text-align: center;
+}
+
+.eventtop img {
+	width: 50%;
+}
+
+.toptable img {
+	width: 800px;
+	margin-top: -6px;
+}
+
+.toptable {
+	text-align: center;
+}
+
+#toptable {
+	margin-top: -6px;
+	border-collapse: collapse;
+	border: 6px #000 solid;
+}
+
+#toptable td {
+	border: 6px #000 solid;
+	padding-bottom: -5px;
+}
+
+.eventtable1 {
+	font-size: 32px;
+	font-family: "游ゴシック", YuGothic;
+	text-align: center;
+	line-height: 140%;
+}
+
+.eventtable2 {
+	font-size: 32px;
+	font-family: "メイリオ", Meiryo;
+	text-align: center;
+	font-weight: bold;
+	line-height: 90%;
+	padding-top: 10px;
+}
+
+.eventtable4 {
+	font-family: "メイリオ", Meiryo;
+	text-align: center;
+	font-weight: bold;
+	line-height: 85%;
+	padding-top: 5px;
+
+}
+
+.eventtable5 {
+	font-family: "メイリオ", Meiryo;
+	font-weight: bold;
+	line-height: 105%;
+	padding-top: 10px;
+}
+
+.eventtable6 {
+	font-family: "メイリオ", Meiryo;
+	font-weight: bold;
+	line-height: 75%;
+}
+
+.eventtable7 {
+	font-family: "メイリオ", Meiryo;
+	font-weight: bold;
+	line-height: 80%;
+	padding-top: 5px;
+}
+
+
+.entry {
+	width: 800px;
+	height: 71px;
+	text-align: center;
+	margin-top: 40px;
+	background-image: url(images/entry_1.png); 
+	background-size: contain;
+/*	background-color: #0071BB;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 13px;
+	font-family: "メイリオ", Meiryo;
+	text-decoration: none;
+	*/
+}
+/*
+a .entry {
+	color: #fff;
+	text-decoration: none;
+}
+
+.entry:hover {
+	background-color: #29AAE1;
+}
+*/
+
+.entry :hover {
+	background-image: url(images/entry_2.png) ; 
+}
+
+#image1 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 32.48% 0 0;
+}
+
+#image1 .img {
+	background-image: url(images/back1_edited.jpg) ; 
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  	overflow: hidden;
+  	z-index: -1;
+ 	background-size: contain;
+ 	margin-top: -260px;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+}
+
+
+.fixed {
+    position: fixed;
+    text-align: right;
+    top: -40px;
+    z-index: 1;
+}
+
+#tweet {
+	width: 2300px;
+	height: 71px;
+	text-align: center;
+	margin-top: 40px;
+	background-size: contain;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 13px;
+	font-family: "メイリオ", Meiryo;
+	text-decoration: none;
+}
+
+#menu-wrap {
+ 	position: relative;
+ 	overflow: hidden;
+ 	margin-top: -320px;
+}
+
+
+#menu {
+ 	position: relative;
+ 	overflow: hidden;
+}
+
+.menu {
+	float: left;
+	position: relative;
+	left: 50%;
+}
+
+.menuimg {
+	position: relative;
+	left: -50%;
+	float: left;
+}
+
+.menuimg img{
+	width: 50%;
+}
+
+#news {
+	text-align: center;
+	margin-top: 150px;
+}
+
+#news img {
+	width: 140px;
+	padding-right: 650px;
+}
+
+.newstable {
+	text-align: center;
+}
+
+#newstable {
+	margin-top: -6px;
+	border-collapse: collapse;
+	border: 6px #000 solid;
+}
+
+#newstable td {
+	border: 6px #000 solid;
+}
+
+.newstable {
+	font-size: 14px;
+	text-align: center;
+	line-height: 250%;
+}
+
+td.news {
+	z-index: 9999;
+}
+
+td.news:hover {
+	border: 6px #FFF solid;
+	color: #FFF;
+	background-color: #000;
+}
+
+#about {
+	text-align: center;
+	margin-top: 120px;
+}
+
+.abouticon img {
+	width: 106px;
+}
+
+#image2 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 22.15% 0 0;
+}
+
+#image2 .img {
+	background-image: url(images/back2_edited.jpg) ; 
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  	overflow: hidden;
+  	z-index: -1;
+ 	background-size: contain;
+ 	margin-top: -80px;
+}
+
+#about_description {
+	margin-top: -30px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+p.about_title {
+	font-size: 30px;
+}
+
+p.about_contents {
+	font-size: 14px;
+}
+
+
+#program {
+	text-align: center;
+	margin-top: 120px;
+}
+
+.programicon img {
+	width: 106px;
+}
+
+#image3 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 25.55% 0 0;
+}
+
+#image3 .img {
+	background-image: url(images/back3_edited.jpg) ; 
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  	overflow: hidden;
+  	z-index: -1;
+ 	background-size: contain;
+ 	margin-top: -76px;
+}
+
+.timeline {
+	text-align: left;
+	padding-left: 50px;
+	width: 800px;
+}
+
+.tl_line {
+	float: left;
+	height: 64px;
+	width: 90px;
+	border-top: 4px solid #000;
+	margin-top: 62px;
+}
+
+.tl_box {
+	float: left;
+	height: 128px;
+	width: 650px;
+	border: 4px solid #000;
+	border-bottom: 0px;
+}
+
+.tl_boxbottom {
+	float: left;
+	height: 128px;
+	width: 650px;
+	border: 4px solid #000;
+}
+
+.tl_box1 {
+	float: left;
+	height: 128px;
+	width: 650px;
+	border: 4px solid #000;
+	margin-top: -30px;
+	margin-left: 94px;
+	margin-bottom: 50px;
+}
+
+
+#tl_1 {
+	border-left: 4px solid #000;
+	height: 64px;
+	margin-bottom: 45px;
+}
+
+#tl_2 {
+	border-left: 4px solid #000;
+	height: 64px;
+	margin-bottom: 45px;
+}
+
+#tl_3 {
+	float: left;
+	border-left: 4px solid #000;
+	height: 527px;
+	margin-bottom: 115px;
+}
+
+.tl_3_1 {
+	margin-top: 5px;
+}
+
+.tl_3_2 {
+	padding-top: -2px;
+}
+
+#tl_4 {
+	float: left;
+	border-left: 4px solid #000;
+	height: 263px;
+	margin-bottom: 108px;
+}
+
+.tl_4_1 {
+	margin-top: 5px;
+}
+
+.tl_4_2 {
+	padding-top: -2px;
+}
+
+#tl_5 {
+	float: left;
+	border-left: 4px solid #000;
+	/* height: 60px; */
+	margin-bottom: 38px;
+}
+
+.tl_5_1 {
+	margin-top: 5px;
+}
+
+.tl_5_2 {
+	padding-top: -2px;
+}
+
+#tl_6 {
+	float: left;
+	border-left: 4px solid #000;
+	/* height: 269px; */
+	margin-bottom: 30px;
+}
+
+.tl_6_1 {
+	margin-top: 5px;
+}
+
+.tl_6_2 {
+	padding-top: -2px;
+}
+
+#tl_7 {
+	float: left;
+	border-left: 4px solid #000;
+	height: 394px; 
+	margin-bottom: 108px;
+	margin-top: 70px;
+}
+
+.tl_7_1 {
+	margin-top: 5px;
+}
+
+.tl_7_2 {
+	padding-top: -2px;
+}
+
+
+
+#tl_8 {
+	float: left;
+	border-left: 4px solid #000;
+	/* height: 269px; */
+	margin-bottom: 15px;
+}
+
+.tl_8_1 {
+	margin-top: 5px;
+}
+
+.tl_8_2 {
+	padding-top: -2px;
+}
+
+
+.program_name {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.program_description {
+	font-size: 13px;
+	margin-top: 15px;
+}
+
+
+#niconico {
+	text-align: center;
+	margin-top: 700px;
+
+}
+
+
+#access {
+	text-align: center;
+	margin-top: 750px;
+}
+
+.accessicon img {
+	width: 106px;
+}
+
+#image4 {
+	position: relative;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+  	z-index: -1;
+ 	background-size: contain;
+ 	margin-top: -72px;
+
+}
+
+#access_description {
+	margin-top: 30px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+p.access_title {
+	font-size: 26px;
+}
+
+p.access_contents {
+	font-size: 13px;
+}
+
+#committee {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.mislogo img {
+	width: 180px;
+}
+
+.committee_title {
+	font-size: 26px;
+}
+
+.committee_contact {
+	font-size: 13px;
+}
+
+#specialthanks {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.specialthanks_title {
+	font-size: 22px;
+}
+
+
+#footer {
+	text-align: center;
+	margin-top: 120px;
+}
+
+.copyright {
+	font-size: 14px;	
+}
